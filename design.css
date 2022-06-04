@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+*{
+	margin:  0px;
+	padding: 0px;
+}
+.sidebar{
+	background-color: lightskyblue;	
+	width: 15vw;
+	height: 100vh;
+}
+.sidebar Navi{
+	padding: 45px;
+	margin: 0 12px;
+}
+.sidebar Navi li{
+	list-style: none;
+	font-size: 30px;
+	padding:  33px 10px;
+}
+.sidebar Navi li a{
+	text-decoration: none;
+	color: black;
+}
+.main{
+	background-color: azure;
+	width :90vw;
+}
+.container{
+	display: flex;
+}
+.info{
+	/*background-color: red;*/
+	height: 58vh;
+	width: 80vw;
+	margin: 147px auto;
+	
+}
+.devpic img{
+	width: 30vh;
+	height: 58vh;
+}
+.devinfo{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Roboto Mono', monospace;
+}
+.hey{
+	font-size: 60px;
+	font-family: 'Roboto Mono', monospace;
+}
+.About{
+	font-size: 40px;
+	font-family: 'Roboto Mono', monospace;
+}
+.buttons button{
+	margin: 10px;
+    padding: 10px;
+    background-color: darkturquoise;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 7px;
+    cursor: pointer;
+}
+.buttons button:hover{
+	color: darkturquoise;
+	background-color: white;
+}
